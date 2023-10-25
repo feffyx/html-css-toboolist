@@ -20,10 +20,77 @@ header{
 .container{
     background-color: white;
     border-radius: 12px;
+    
+}
+
+.task-container{
+    padding:25px;
+
+}
+
+.button-container{
+    padding:10px;
+    border-bottom: 2px #F6F8F9 solid;
 }
 
 main{
     padding-top: 16px;
-    padding-left:150px ;
-    padding-right: 150px;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+#task-button{
+    background-color:#51adf7;
+    border: 1px #51adf7 solid;
+    padding-top:4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+
+#section-button{
+    background-color:white;
+    border: 1px rgb(177, 177, 177) solid;
+    padding: 4px 10px;
+    border-radius: 5px;
+
+}
+
+.list{
+    list-style-type: none;
+
+}
+
+.badge{
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-size: 10px;
+    margin-left: 4px;
+    color: white;
+}
+
+.badge-blue{
+    background-color: #51adf7;   
+}
+
+.badge-purple{
+    background-color: #AB5DE6;
+}
+
+.badge-green{
+    background-color: #2CC6AB;
+}
+
+.badge-orange{
+    background-color: #FF9B00;
+}
+
+.badge-pink{
+    background-color: #EC4A9D;
+}
+
+.badge-lime{
+    background-color: #A3D116;
 }
