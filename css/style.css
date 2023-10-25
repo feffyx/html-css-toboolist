@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f7f8;
+    
+}
+
+#logo-toboolist{
+    width: 300px;
+}
+
+header{
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+    border-radius: 12px;
+}
+
+main{
+    padding-top: 16px;
+    padding-left:150px ;
+    padding-right: 150px;
+}
