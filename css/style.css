@@ -1,4 +1,5 @@
 *{
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,43 +11,56 @@ body{
 }
 
 #logo-toboolist{
-    width: 300px;
+    height: 50px;
 }
 
 header{
     background-color: white;
+    padding:8px 16px;
 }
 
 .container{
     background-color: white;
-    border-radius: 12px;
+    border-radius: 6px;
+    max-width: 1400px;
+    width: 100%;
+    
     
 }
 
 .task-container{
-    padding:25px;
+    padding:25px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 
 }
 
 .button-container{
-    padding:10px;
+    padding:10px 40px;
     border-bottom: 2px #F6F8F9 solid;
+
 }
 
 main{
-    padding-top: 16px;
+    padding-top: 28px;
     padding-left:50px ;
     padding-right: 50px;
+    display: flex;
+    justify-content: center;
+
 }
 
 #task-button{
-    background-color:#51adf7;
-    border: 1px #51adf7 solid;
+    background-color:#14AAF5;
+    border: 1px #14AAF5 solid;
     padding-top:4px;
     padding-bottom: 4px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+    font-size: 12px;
 
 }
 
@@ -55,11 +69,19 @@ main{
     border: 1px rgb(177, 177, 177) solid;
     padding: 4px 10px;
     border-radius: 5px;
+    font-size: 12px;
 
 }
 
 .list{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #434851;
+    
 
 }
 
@@ -73,7 +95,7 @@ main{
 }
 
 .badge-blue{
-    background-color: #51adf7;   
+    background-color: #14AAF5;   
 }
 
 .badge-purple{
@@ -124,3 +146,18 @@ main{
     font-size: 10px;
     
 }
+
+.arrow-icon{
+    font-size: 10px;
+    display: inline;
+
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size:18px ;
+    color: #434851;
+}
+
