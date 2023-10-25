@@ -63,6 +63,7 @@ main{
 
 }
 
+/* Structuring the tags */
 .badge{
     border-radius: 12px;
     padding: 4px 10px;
@@ -93,4 +94,33 @@ main{
 
 .badge-lime{
     background-color: #A3D116;
+}
+
+/* Structure of the marks */
+.check-icon{
+    display: inline;
+    border: 1px #2CC6AB solid;
+    border-radius: 999px;
+    padding:0px 2px;
+    line-height: 14px;
+    margin-right: 4px;
+    height: 14px;
+    width: 14px;
+    color: #2CC6AB;
+    font-size: 10px;
+    
+}
+
+.cross-icon{
+    display: inline;
+    border: 1px #FF0000 solid;
+    border-radius: 999px;
+    padding:0px 2px;
+    line-height: 14px;
+    margin-right: 4px;
+    height: 14px;
+    width: 14px;
+    color: #FF0000;
+    font-size: 10px;
+    
 }
